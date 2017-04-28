@@ -62,27 +62,25 @@ module.exports = function (grunt) {
         },
         // Watch for changes in live edit
         watch: {
-            styles: {
+            options: {
+                livereload: true
+            },
+            less: {
                 files: ['app/less/**/*.less'],
                 tasks: ['less', 'copy:styles'],
                 options: {
-                    nospawn: true,
-                    livereload: '<%= connect.options.livereload %>'
-                },
-            },
-            js: {
-                files: ['<%= homer.app %>/scripts/{,*/}*.js'],
-                options: {
-                    livereload: '<%= connect.options.livereload %>'
+                    livereload: false
                 }
             },
-            livereload: {
-                options: {
-                    livereload: '<%= connect.options.livereload %>'
-                },
+            css: {
+                files: ['app/styles/**/*.css']
+            },
+            js: {
+                files: ['<%= homer.app %>/scripts/**/{,*/}*.js']
+            },
+            html: {
                 files: [
                     '<%= homer.app %>/**/*.html',
-                    '.tmp/styles/{,*/}*.css',
                     '<%= homer.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
             }
@@ -141,6 +139,13 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         dot: true,
+                        cwd: 'bower_components/angular-ui-grid',
+                        src: ['*.*', '!*.css', '!*.js', '!*.json', '!*.md'],
+                        dest: '<%= homer.dist %>/styles'
+                    },
+                    {
+                        expand: true,
+                        dot: true,
                         cwd: 'app/fonts/pe-icon-7-stroke/',
                         src: ['fonts/*.*'],
                         dest: '<%= homer.dist %>'
@@ -176,7 +181,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= homer.dist %>',
-                    src: ['*.html', 'views/{,*/}*.html'],
+                    src: ['*.html'],
                     dest: '<%= homer.dist %>'
                 }]
             }
@@ -189,10 +194,27 @@ module.exports = function (grunt) {
         },
         usemin: {
             html: ['dist/index.html']
+        },
+        ngtemplates: {
+            homer: {
+                cwd: 'app',
+                src: 'views/**/*.html',
+                dest: '<%= homer.dist %>/app.templates.js',
+                options: {
+                    htmlmin: {
+                        collapseWhitespace: true,
+                        conservativeCollapse: true,
+                        collapseBooleanAttributes: true,
+                        removeCommentsFromCDATA: true,
+                        removeOptionalTags: true
+                    },
+                    usemin: 'scripts/scripts.js'
+        }
+            }
         }
     });
 
-    grunt.registerTask('live', [
+    grunt.registerTask('serve', [
         'clean:server',
         'copy:styles',
         'connect:livereload',
@@ -208,6 +230,7 @@ module.exports = function (grunt) {
         'clean:dist',
         'less',
         'useminPrepare',
+        'ngtemplates',
         'concat',
         'copy:dist',
         'cssmin',
@@ -216,5 +239,4 @@ module.exports = function (grunt) {
         'usemin',
         'htmlmin'
     ]);
-
 };

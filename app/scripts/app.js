@@ -16,7 +16,9 @@
         'ui.map',                   // Ui Map for Google maps
         'ui.calendar',              // UI Calendar
         'summernote',               // Summernote plugin
-        'ngGrid'                    // Angular ng Grid
+        'ngGrid',                   // Angular ng Grid
+        'ui.select',                // Angular ui-select
+        'vcRecaptcha'               // Angular recaptcha
     ])
 })();
 

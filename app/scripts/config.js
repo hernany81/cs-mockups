@@ -4,14 +4,34 @@
  *
  */
 
-function configState($stateProvider, $urlRouterProvider, $compileProvider) {
+function configState($stateProvider, $urlRouterProvider, $compileProvider, $sceProvider) {
 
     // Optimize load start with remove binding information inside the DOM element
     $compileProvider.debugInfoEnabled(true);
 
+    $sceProvider.enabled(false);
+
     // Set default state
     $urlRouterProvider.otherwise("/dashboard");
     $stateProvider
+        // Cloud-Slot
+        .state('cs', {
+            abstract: true,
+            url: "/cs",
+            templateUrl: "views/common/content_empty.html",
+            data: {
+                pageTitle: 'Cloud-Slot'
+            }
+        })
+        .state('cs.registration', {
+            url: "/registration",
+            templateUrl: "views/cs/registration/registration.html",
+            controller: 'csRegistration',
+            data: {
+                pageTitle: 'Registration',
+                specialClass: 'blank'
+            }
+        })
 
         // Dashboard - Main page
         .state('dashboard', {

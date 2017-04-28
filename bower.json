@@ -14,9 +14,9 @@
   ],
   "appPath": "app",
   "dependencies": {
-    "angular": "~1.3.5",
+    "angular": "~1.5.8",
     "angular-ui-router": "~0.2.12",
-    "angular-bootstrap": "~0.12.0",
+    "angular-bootstrap": "~2.1.4",
     "jquery": "~2.1.3",
     "jquery-ui": "~1.11.1",
     "bootstrap": "~3.3.0",
@@ -35,13 +35,22 @@
     "sweetalert": "https://github.com/t4t5/sweetalert.git#~0.2.1",
     "angular-notify": "~2.0.2",
     "flot": "~0.8.3",
-    "angular-animate": "~1.3.5",
+    "angular-animate": "1.5.8",
     "angular-ui-map": "~0.5.0",
     "fullcalendar": "~2.2.6",
     "angular-ui-calendar": "~0.8.1",
     "summernote": "~0.6.0",
     "angular-summernote": "~0.3.1",
     "ng-grid": "~2.0.14",
-    "slimScroll": "~1.3.3"
+    "slimScroll": "~1.3.3",
+    "angular-ui-select": "^0.19.6",
+    "lodash": "^4.17.4",
+    "angular-recaptcha": "^4.1.0"
+  },
+  "resolutions": {
+    "jquery-ui": "~1.11.1",
+    "jquery": "~2.1.3",
+    "angular": "~1.5.8",
+    "fullcalendar": "~2.2.6"
   }
 }

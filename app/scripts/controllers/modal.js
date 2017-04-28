@@ -8,25 +8,25 @@ angular
     .module('homer')
     .controller('modalCtrl', modalCtrl)
 
-function modalCtrl($scope, $modal) {
+function modalCtrl($scope, $uibModal) {
 
     $scope.open = function () {
 
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example.html',
             controller: ModalInstanceCtrl,
         });
     };
 
     $scope.open1 = function () {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example1.html',
             controller: ModalInstanceCtrl
         });
     };
 
     $scope.open3 = function (size) {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example3.html',
             size: size,
             controller: ModalInstanceCtrl,
@@ -34,7 +34,7 @@ function modalCtrl($scope, $modal) {
     };
 
     $scope.open2 = function () {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example2.html',
             controller: ModalInstanceCtrl,
             windowClass: "hmodal-info"
@@ -42,7 +42,7 @@ function modalCtrl($scope, $modal) {
     };
 
     $scope.open4 = function () {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example2.html',
             controller: ModalInstanceCtrl,
             windowClass: "hmodal-warning"
@@ -50,7 +50,7 @@ function modalCtrl($scope, $modal) {
     };
 
     $scope.open5 = function () {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example2.html',
             controller: ModalInstanceCtrl,
             windowClass: "hmodal-success"
@@ -58,7 +58,7 @@ function modalCtrl($scope, $modal) {
     };
 
     $scope.open6 = function () {
-        var modalInstance = $modal.open({
+        var modalInstance = $uibModal.open({
             templateUrl: 'views/modal/modal_example2.html',
             controller: ModalInstanceCtrl,
             windowClass: "hmodal-danger"
@@ -66,13 +66,13 @@ function modalCtrl($scope, $modal) {
     };
 };
 
-function ModalInstanceCtrl ($scope, $modalInstance) {
+function ModalInstanceCtrl ($scope, $uibModalInstance) {
 
     $scope.ok = function () {
-        $modalInstance.close();
+        $uibModalInstance.close();
     };
 
     $scope.cancel = function () {
-        $modalInstance.dismiss('cancel');
+        $uibModalInstance.dismiss('cancel');
     };
 };

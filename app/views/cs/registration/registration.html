@@ -1,0 +1,100 @@
+<div class="color-line"></div>
+<div class="pull-left m">
+    <a ui-sref="dashboard" class="btn btn-primary">Back to Dashboard</a>
+</div>
+<div class="register-container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center m-b-md">
+                <h3>Registration</h3>
+            </div>
+            <div class="hpanel">
+                <div class="panel-body">
+                    <form name="signupForm" validated-form novalidate>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Program
+                                    <field-error field="program"></field-error>
+                                </label>
+                                <ui-select ng-model="data.selectedProgram" theme="bootstrap"
+                                           name="program" required>
+                                    <ui-select-match placeholder="Program">{{$select.selected.name}}
+                                    </ui-select-match>
+                                    <ui-select-choices repeat="program in ctx.programs">
+                                        <div>
+                                            <div style="display: inline"
+                                                 ng-bind-html="program.name"></div>
+                                        </div>
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Pickup Location
+                                    <field-error field="pickupLocation"></field-error>
+                                </label>
+                                <ui-select class="registration-component" name="pickupLocation"
+                                           ng-model="data.selectedLocation" theme="bootstrap"
+                                           required>
+                                    <ui-select-match placeholder="Pickup location">{{$select.selected.name}}
+                                    </ui-select-match>
+                                    <ui-select-choices repeat="location in ctx.availableLocations">
+                                        <div>
+                                            <div style="display: inline"
+                                                 ng-bind-html="location.name"></div>
+                                        </div>
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Username
+                                    <field-error field="username"></field-error>
+                                </label>
+                                <input type="text" placeholder="Username" ng-model="data.username"
+                                       name="username" class="form-control" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Email Address
+                                    <field-error field="email"></field-error>
+                                </label>
+                                <input type="email" placeholder="Email Address" ng-model="data.email"
+                                       name="email" class="form-control" autocomplete="off" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Password
+                                    <field-error field="password"></field-error>
+                                </label>
+                                <input type="password" placeholder="Password" ng-model="data.password"
+                                       name="password" class="form-control" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    Repeat Password
+                                    <field-error field="repeatPassword"></field-error>
+                                </label>
+                                <input type="password" placeholder="Repeat Password" ng-model="data.repeatPassword"
+                                       name="repeatPassword" class="form-control" required>
+                            </div>
+                            <div class="col-md-12" data-ng-show="canDisplayRecaptcha(signupForm)">
+                                <div vc-recaptcha key="ctx.recaptchaKey" ng-model="data.recaptcha" name="recaptcha" on-success="register(signupForm)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <a ng-click="displayPasswordRecovery()">I forgot my password</a>
+                                {{signupForm.errors}}
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-success" ng-click="register(signupForm)">Register</button>
+                            <button class="btn btn-default">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+[validated-form] {
+  .error {
+    display: none;
+    font-weight: 100;
+    color: @color-red;
+  }
+
+  &.ng-submitted {
+    .error {
+      &.contains-errors {
+        display: inline-block;
+      }
+    }
+
+    input {
+      &.ng-invalid {
+        border-color: @color-red !important;
+      }
+    }
+
+    .ui-select-container {
+      &.ng-invalid {
+        .form-control {
+          border-color: @color-red !important;
+        }
+      }
+    }
+  }
+}
