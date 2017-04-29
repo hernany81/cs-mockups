@@ -211,6 +211,9 @@ module.exports = function (grunt) {
                     usemin: 'scripts/scripts.js'
         }
             }
+        },
+        zip: {
+            '<%= homer.dist %>/cloud-slot-mockups.zip': ['<%= homer.dist %>/dist/**']
         }
     });
 
@@ -237,6 +240,7 @@ module.exports = function (grunt) {
         'uglify',
         'filerev',
         'usemin',
-        'htmlmin'
+        'htmlmin',
+        'zip'
     ]);
 };
