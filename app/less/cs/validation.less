@@ -3,6 +3,26 @@
     display: none;
     font-weight: 100;
     color: @color-red;
+
+    ul {
+      padding: 0 0 0 5px;
+      margin: 0;
+
+      li {
+        list-style: none;
+        display: inline;
+
+        &:before {
+          content: '. ';
+        }
+
+        &:first-of-type {
+          &:before {
+            content: '';
+          }
+        }
+      }
+    }
   }
 
   &.ng-submitted {
@@ -12,10 +32,8 @@
       }
     }
 
-    input {
-      &.ng-invalid {
-        border-color: @color-red !important;
-      }
+    .ng-invalid {
+      border-color: @color-red !important;
     }
 
     .ui-select-container {

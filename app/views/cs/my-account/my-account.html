@@ -1,0 +1,91 @@
+<div class="row">
+    <div class="col-md-6">
+        <form name="personalInfoForm" validated-form novalidate>
+            <editable-panel data-title="Personal Information" data-editable="true" data-datasource="data.personalData"
+                            data-form="personalInfoForm" data-on-save="savePersonalInformation($newValues, $successCallback, $errorCallback)">
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label>Username</label>
+                        <div class="form-control-static">{{data.username}}</div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>
+                            Email
+                            <field-error field="email"></field-error>
+                        </label>
+                        <div data-ng-show="!editing" class="form-control-static">{{data.email}}</div>
+                        <input data-ng-show="editing" type="email" placeholder="Email" ng-model="data.email"
+                               name="email" class="form-control" autocomplete="off" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>
+                            Phone
+                            <field-error field="phone"></field-error>
+                        </label>
+                        <div data-ng-show="!editing" class="form-control-static">{{data.phone}}</div>
+                        <input data-ng-show="editing" type="text" placeholder="Phone" ng-model="data.phone"
+                               name="phone" class="form-control" autocomplete="off">
+                    </div>
+                </div>
+            </editable-panel>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <form name="programForm" validated-form novalidate>
+            <editable-panel data-title="Program" data-datasource="data.program">
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label>Program</label>
+                        <div class="form-control-static">{{data.name}}</div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Pickup Location</label>
+                        <div class="form-control-static">{{data.pickupLocation.name}}</div>
+                    </div>
+                </div>
+            </editable-panel>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <form name="paymentInfoForm" validated-form novalidate>
+            <editable-panel data-title="Payment Settings" data-datasource="data.paymentSettings" data-editable="true"
+                            data-form="paymentInfoForm" data-on-save="savePaymentSettings($newValues, $successCallback, $errorCallback)"
+                            data-on-cancel="cancelPaymentSettingsEdition()">
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label>
+                            Method
+                            <field-error field="method"></field-error>
+                        </label>
+                        <div class="form-control-static" data-ng-show="!editing">
+                            {{data.method | paymentMethod}}
+                        </div>
+                        <ui-select ng-model="data.method" theme="bootstrap" data-ng-show="editing"
+                                   name="method" required>
+                            <ui-select-match placeholder="Payment method">{{$select.selected | paymentMethod}}
+                            </ui-select-match>
+                            <ui-select-choices repeat="m in parentContext.ctx.paymentMethods">
+                                <div>{{m | paymentMethod}}</div>
+                            </ui-select-choices>
+                        </ui-select>
+                        <div class="form-control-static" data-ng-show="data.method == 'CREDIT_CARD' && data.cardDetails && !parentContext.creditCardInputVisible">
+                            <p class="m-t-sm m-b-none">
+                                <span class="font-bold">{{data.cardDetails.brand}}</span> ending in <span class="font-bold">{{data.cardDetails.ending}}</span>
+                                <button type="button" class="btn btn-xs btn-info m-l-sm m-b-xs" data-ng-show="editing"
+                                        data-ng-click="parentContext.creditCardInputVisible = true">Change</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12" data-ng-if="data.method == 'CREDIT_CARD' && editing && parentContext.creditCardInputVisible">
+                        <label>
+                            Card Details
+                            <field-error field="stripeToken"></field-error>
+                        </label>
+                        <div ng-model="data.cardDetails.stripeToken" name="stripeToken" class="form-control"
+                             stripe-credit-card data-on-success="parentContext.setCardDetails($scope, $data)" required></div>
+                    </div>
+                </div>
+            </editable-panel>
+        </form>
+    </div>
+</div>

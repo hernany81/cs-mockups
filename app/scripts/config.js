@@ -18,7 +18,12 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, $sceP
         .state('cs', {
             abstract: true,
             url: "/cs",
-            templateUrl: "views/common/content_empty.html",
+            templateUrl: function($stateParams) {
+                return 'views/common/' + $stateParams.template + '.html';
+            },
+            params: {
+                template: 'content_empty'
+            },
             data: {
                 pageTitle: 'Cloud-Slot'
             }
@@ -29,6 +34,15 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, $sceP
             controller: 'csRegistration',
             data: {
                 pageTitle: 'Registration',
+                specialClass: 'blank'
+            }
+        })
+        .state('cs.myAccount', {
+            url: "/my-account",
+            templateUrl: "views/cs/my-account/my-account.html",
+            controller: 'csMyAccount',
+            data: {
+                pageTitle: 'My Account',
                 specialClass: 'blank'
             }
         })

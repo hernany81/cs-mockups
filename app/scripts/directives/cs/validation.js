@@ -32,7 +32,20 @@ angular
             controller: function($scope) {
                 var errorsTemplates = {
                     required: '<%= field_name%> is required',
-                    email: '<%= field_name%> is not a valid email'
+                    email: '<%= field_name%> is not a valid email',
+                    'card-invalid-number': 'Invalid credit card number',
+                    'card-invalid-expiry-month': 'Invalid expiration month',
+                    'card-invalid-expiry-year': 'Invalid expiration year',
+                    'card-invalid-expiry-year-past': 'Expiration year is in the past',
+                    'card-invalid-cvc': 'Invalid security code',
+                    'card-invalid-swipe-data': 'Invalid swipe data',
+                    'card-incorrect-number': 'Incorrect card number',
+                    'card-expired-card': 'Card has expired',
+                    'card-incorrect-cvc': 'Incorrect security code',
+                    'card-incorrect-zip': 'Zip code failed validation',
+                    'card-card-declined': 'Card was declined',
+                    'card-missing': 'There is no card on a customer that is being charged',
+                    'card-processing-error': 'An error occurred while processing the card'
                 };
 
                 $scope.hasErrors = false;
@@ -40,18 +53,16 @@ angular
                 $scope.getErrorMsg = function() {
                     var errorMsgs = [];
 
-                    _.each(_.keys(errorsTemplates), function(errorKey) {
-                        if($scope.parentForm[$scope.field].$error[errorKey]) {
-                            var template = errorsTemplates[errorKey];
-                            var customMsgError = $scope.attrs[errorKey + 'ErrorMsg'];
-                            var msgError = customMsgError || _.template(template)({'field_name': 'This field'});
+                    _.each(_.keys($scope.parentForm[$scope.field].$error), function(errorKey) {
+                        var template = errorsTemplates[errorKey] || errorKey;
+                        var customMsgError = $scope.attrs[errorKey + 'ErrorMsg'];
+                        var msgError = customMsgError || _.template(template)({'field_name': 'This field'});
 
-                            errorMsgs.push(msgError);
-                        }
+                        errorMsgs.push(msgError);
                     });
 
                     $scope.hasErrors = !_.isEmpty(errorMsgs);
-                    return _.join(errorMsgs, '. ');
+                    return errorMsgs;
                 }
             }
         }

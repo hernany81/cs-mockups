@@ -1,1 +1,5 @@
-<span class="error" ng-class="{'contains-errors': hasErrors}">{{getErrorMsg()}}</span>
+<span class="error" ng-class="{'contains-errors': hasErrors}">
+    <ul>
+        <li ng-repeat="err in getErrorMsg()">{{err}}</li>
+    </ul>
+</span>
