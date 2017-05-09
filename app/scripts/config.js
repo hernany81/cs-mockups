@@ -46,6 +46,15 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, $sceP
                 specialClass: 'blank'
             }
         })
+        .state('cs.gridExample', {
+            url: "/grid-example",
+            templateUrl: "views/cs/grid-example/grid-example.html",
+            controller: 'csGridExample',
+            data: {
+                pageTitle: 'Grid Example',
+                specialClass: 'blank'
+            }
+        })
 
         // Dashboard - Main page
         .state('dashboard', {
