@@ -18,7 +18,25 @@
         'summernote',               // Summernote plugin
         'ngGrid',                   // Angular ng Grid
         'ui.select',                // Angular ui-select
-        'vcRecaptcha'               // Angular recaptcha
-    ])
+        'vcRecaptcha',              // Angular recaptcha
+        'app.grid',                 // Custom grid component
+        'angular-logger',           // Angular logger
+        'LocalStorageModule',       // Local storage service
+        'restangular',              // Restangular
+        'cs.loading-indicator'      // Custom loading indicator
+    ]).config(function(localStorageServiceProvider, logEnhancerProvider) {
+        localStorageServiceProvider.setPrefix('farmlogix-');
+
+        logEnhancerProvider.prefixPattern = '%s\t[%s]>';
+        logEnhancerProvider.datetimePattern = 'ddd hh:mm:ss.SSS';
+        logEnhancerProvider.logLevels = {
+            '*': logEnhancerProvider.LEVEL.ERROR
+            //'components.DatagridController': logEnhancerProvider.LEVEL.TRACE
+            //'components.GridStatusPersistenceService': logEnhancerProvider.LEVEL.TRACE
+            //'components.LoadingService': logEnhancerProvider.LEVEL.TRACE
+            //'components.DynamicMenuBuilderService': logEnhancerProvider.LEVEL.TRACE
+            //'component.paginated-selector-container': logEnhancerProvider.LEVEL.TRACE
+        };
+    });
 })();
 

@@ -45,7 +45,11 @@
     "slimScroll": "~1.3.3",
     "angular-ui-select": "^0.19.6",
     "lodash": "^4.17.4",
-    "angular-recaptcha": "^4.1.0"
+    "angular-ui-grid": "~3.2",
+    "angular-recaptcha": "^4.1.0",
+    "angular-local-storage": "~0.1.5",
+    "restangular": "~1.5.0",
+    "angular-logger": "1.4.0"
   },
   "resolutions": {
     "jquery-ui": "~1.11.1",

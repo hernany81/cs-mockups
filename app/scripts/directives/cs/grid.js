@@ -1,5 +1,5 @@
 angular.module('app.grid', ['ui.grid', 'ui.grid.pinning', 'ui.grid.resizeColumns', 'ui.grid.moveColumns',
-    'ui.grid.selection', 'ui.grid.saveState', 'ui.grid.autoResize'])
+    'ui.grid.selection', 'ui.grid.saveState', 'ui.grid.autoResize', 'cs.loading-indicator', 'angular-logger'])
     .constant('GRID_EVENT', {
         CREATE_ITEM: 'grid:event:create:item',
         UPDATE_ITEM: 'grid:event:update:item',
@@ -551,7 +551,7 @@ angular.module('app.grid', ['ui.grid', 'ui.grid.pinning', 'ui.grid.resizeColumns
                 transclude: true,
                 scope: true,
                 controller: 'DatagridController',
-                templateUrl: 'views/common/datagrid.html',
+                templateUrl: 'views/cs/directives/grid/datagrid.html',
                 link: function($scope, $elem, $attrs) {
                     $scope.gridElement = $elem;
                     $scope.hasInnerContent = $elem.find('ng-transclude').children().length > 0;
@@ -662,7 +662,7 @@ angular.module('app.grid', ['ui.grid', 'ui.grid.pinning', 'ui.grid.resizeColumns
             // This is a custom service as the default service doesn't save pin information
             function getId(gridScope) {
                 var gridVersion = gridScope.gridConfig.gridOptions.version || 1;
-                return gridScope.gridId + '/' + $rootScope.getLoggedUser().name + '/' + gridVersion;
+                return gridScope.gridId + '/' + 'demo-user' + '/' + gridVersion;
             }
 
             return {
