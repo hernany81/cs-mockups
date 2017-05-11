@@ -46,6 +46,7 @@
     "angular-ui-select": "^0.19.6",
     "lodash": "^4.17.4",
     "angular-ui-grid": "~3.2",
+    "malihu-custom-scrollbar-plugin-bower": "*",
     "angular-recaptcha": "^4.1.0",
     "angular-local-storage": "~0.1.5",
     "restangular": "~1.5.0",

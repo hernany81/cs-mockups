@@ -1,0 +1,6 @@
+<ul class="grid-item-crud-toolbar">
+    <li data-ng-repeat="cfg in actionsCfg track by cfg.id" ng-if="cfg.condition">
+        <i class="{{cfg.iconClass}}" ng-click="cfg.action(item)" uib-tooltip="{{cfg.tooltip}}" tooltip-placement="top" tooltip-append-to-body="true"></i>
+    </li>
+    <ng-transclude></ng-transclude>
+</ul>

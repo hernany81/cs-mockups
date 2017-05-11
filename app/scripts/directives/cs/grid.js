@@ -163,7 +163,7 @@ angular.module('app.grid', ['ui.grid', 'ui.grid.pinning', 'ui.grid.resizeColumns
                                 result = gridConfig.resultHandler(resp);
                             } else {
                                 result = {
-                                    totalCount: parseInt(resp.headers('x-hedtech-totalcount')),
+                                    totalCount: resp.total,
                                     data: resp.data
                                 }
                             }
