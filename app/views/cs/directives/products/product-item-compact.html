@@ -1,0 +1,80 @@
+<div class="col-md-3">
+    <div class="hpanel hgreen compact-product-panel">
+        <div class="panel-body">
+            <div class="heading-1">
+                <div class="category text-muted">{{item.sku.product.parent.name}}</div>
+                <div class="location label label-success" data-ng-if="item.sku.farm.primaryAddress.state">{{item.sku.farm.primaryAddress.state | longState}}</div>
+            </div>
+            <div class="image-container"></div>
+            <h3 class="product-name"><a href=""> {{item.sku.product.name}} </a></h3>
+            <div class="text-muted font-bold m-b-xs" data-ng-if="visibilitySettings.farmlogixSku">{{item.sku.code}}</div>
+            <h3 class="text-success">{{item.sellPrice | currency}}</h3>
+            <div class="row" data-ng-if="item.sku.product.description">
+                <div class="col-md-12">
+                    <div class="description" data-ng-bind-html="item.sku.product.description"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <small>Unit</small>
+                    <div class="project-label">{{item.sku.productUnit.name | default: '-'}}</div>
+                </div>
+                <div class="col-md-6" data-ng-if="visibilitySettings.distance">
+                    <small>Miles</small>
+                    <div class="project-label">{{item.sku.distance | default: '-'}}</div>
+                </div>
+            </div>
+            <div class="row" data-ng-if="visibilitySettings.distributorName">
+                <div class="col-md-12">
+                    <small>Distributor</small>
+                    <div class="project-label">{{item.sku.distributor.name | default: '-'}}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <small>Vendor</small>
+                    <div class="project-label">{{item.sku.farm.name | default: '-'}}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <small>Certifications</small>
+                    <div class="project-label">
+                        <span class="label label-success" ng-repeat="certType in item.sku.farm.documents | flatMap: getDocType">{{certType.name}}</span>
+                        <span data-ng-show="item.sku.farm.documents.length == 0">-</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <small>Attributes</small>
+                    <div class="project-label">
+                        <product-attributes-flag product-attributes="item.sku.attributes"></product-attributes-flag>
+                        <span data-ng-show="item.sku.attributes.length == 0">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer contact-footer">
+            <div class="row">
+                <div class="col-md-6 border-right">
+                    <div class="contact-stat">
+                        <a href="#" data-ng-click="toggleSave(item)">
+                            <div ng-show="!item.savedFlag">
+                                <i class="fa fa-heart-o"></i> Add to wish list
+                            </div>
+                            <div ng-show="item.savedFlag">
+                                <i class="fa fa-trash-o"></i> Remove from wish list
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-stat">
+                        <a href="#" data-ng-click="buy(item)">
+                            <i class="fa fa-cart-arrow-down"></i> Buy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

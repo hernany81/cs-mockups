@@ -1,0 +1,80 @@
+<div class="hpanel consumer-order">
+    <div class="panel-body" >
+        <form class="form-horizontal order-edit" name="preOrderForm" novalidate="">
+            <ng-form name="headerForm">
+                <div dynamic-fields-builder>
+                  <dynamic-field>
+                      <label class="col-sm-2 control-label">Pre Order #</label>
+                      <div class="col-sm-4">
+                        <div class="form-control-static" >P0000001</div>
+                      </div>
+                  </dynamic-field>
+                  <dynamic-field>
+                      <label class="col-sm-2 control-label">Status</label>
+                      <div class="col-sm-4">
+                          <div class="form-control-static" >NEW (UNSAVED)</div>
+                      </div>
+                  </dynamic-field>
+                <dynamic-field>
+                    <label class="col-sm-2 control-label">Customer</label>
+                    <div class="col-sm-4">
+                        <div class="form-control-static">Test Customer</div>
+                    </div>
+                </dynamic-field>
+                <dynamic-field>
+                    <label class="col-sm-2 control-label">Distributor</label>
+                    <div class="col-sm-4">
+                        <div class="form-control-static">Test Distributor</div>
+                    </div>
+                </dynamic-field>
+            </div>
+          </ng-form>
+          <div class="col-sm-8 col-sm-offset-2" style="float:right;">
+            <button class="btn btn-primary" ng-click="savePreOrder()" type="button" ng-cloak>Create Pre Order for {{month}} </button>
+            <button class="btn btn-default" type="button">Cancel</button>
+          </div>
+        </form>
+    </div>
+
+    <div class="panel-body" ng-if="data.created">
+
+        <uib-tabset active="activeForm">
+           <uib-tab ng-repeat="week in weeks" heading="Week starting on {{week}}">
+               <div class="form-group">        
+                  <div class="col-sm-10"> <!--TODO selecciono uno o el otro -->
+                      <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Boxes"> Boxes </label></div>
+                      <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Grid"> Grid </label></div>
+                  </div>
+
+                  <!--Boxes view -->
+                  <div ng-if="data.showView === 'Boxes'">
+                    <div data-ng-repeat="row in data.results">
+                      <div class="row">
+                        <se-product-item data-item="res" data-on-toggle-save="toggleSave($item)" data-on-buy="buy($item)"
+                      data-layout="square" data-ng-repeat="res in row" data-visibility-settings="data.cart.visibilitySettings">
+                      </se-product-item>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Grid view -->
+                  <div ng-if="data.showBoxes === 'Grid'">
+                    GRID
+                    <div> <!--data-ng-repeat="row in data.results"-->
+                      <div class="row">
+                      GRID
+                      </div>
+                    </div>
+                  </div>
+        </div>
+       </uib-tab>
+       </uib-tabset>
+
+         <div class="col-sm-8 col-sm-offset-2" style="float:left;">
+            <button class="btn btn-primary" ng-click="savePreOrder()" type="button">Save</button>
+            <button class="btn btn-default" type="button">Cancel</button>
+        </div>
+
+        </form>
+    </div>
+</div>

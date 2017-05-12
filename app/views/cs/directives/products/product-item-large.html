@@ -1,0 +1,100 @@
+<div class="hpanel hgreen large-product-panel">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <div class="pull-left">
+                    <div class="category">{{item.product.parent.name}}</div>
+                    <div class="sku">{{item.code}}</div>
+                    <div class="product-name">{{item.product.name}}</div>
+                </div>
+                <div class="pull-right visible-sm-inline visible-xs-inline">
+                    <div class="label label-success">{{item.farm.primaryAddress.state | longState}}</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">Miles</label>
+                        <div class="col-xs-4">
+                            <div class="form-control-static">{{item.distance | number: 1 | default: '-'}}</div>
+                        </div>
+                        <label class="col-xs-2 control-label">Unit</label>
+                        <div class="col-xs-4">
+                            <div class="form-control-static">{{item.productUnit.name | default: '-'}}</div>
+                        </div>
+                    </div>
+                    <div class="form-group" data-ng-if="data.showFarm || data.showDistributor">
+                        <div data-ng-if="data.showFarm">
+                            <label class="col-xs-2 control-label">Vendor</label>
+                            <div class="col-xs-4">
+                                <div class="form-control-static">{{item.farm.name | default: '-'}}</div>
+                            </div>
+                        </div>
+                        <div data-ng-if="data.showDistributor">
+                            <label class="col-xs-2 control-label">Distributor</label>
+                            <div class="col-xs-4">
+                                <div class="form-control-static">{{item.distributor.name | default: '-'}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">Certifications</label>
+                        <div class="col-xs-4">
+                            <div class="form-control-static" data-ng-if="data.certificateTypes.length > 0">
+                                <span class="label label-success" ng-repeat="certType in data.certificateTypes">{{certType}}</span>
+                            </div>
+                            <div class="form-control-static" data-ng-if="data.certificateTypes.length == 0">-</div>
+                        </div>
+                        <label class="col-xs-2 control-label">Attributes</label>
+                        <div class="col-xs-4">
+                            <div class="form-control-static" data-ng-if="item.attributes.length > 0">
+                                <product-attributes-flag product-attributes="item.attributes"></product-attributes-flag>
+                            </div>
+                            <div class="form-control-static" data-ng-if="item.attributes.length == 0">-</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 col-xs-12 text-right">
+                <div class="label label-success hidden-sm hidden-xs">{{item.farm.primaryAddress.state | longState}}</div>
+                <h3 class="text-success" data-ng-if="data.showBasePrice">{{item.basePrice | currency}}</h3>
+                <div class="project-action" data-ng-if="!data.showBasePrice">
+                    <div class="btn-group">
+                        <button class="btn btn-xs btn-outline btn-success" data-ng-click="toggleSave(item)">
+                            <div ng-show="!item.savedFlag">
+                                <i class="fa fa-heart-o"></i> Add to wish list
+                            </div>
+                            <div ng-show="item.savedFlag">
+                                <i class="fa fa-trash-o"></i> Remove from wish list
+                            </div>
+                        </button>
+                        <button class="btn btn-xs btn-outline btn-success" data-ng-click="buy(item)"> <i class="fa fa-cart-arrow-down"></i> Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" data-ng-if="data.showBasePrice">
+        <div class="row">
+            <div class="col-xs-6 border-right">
+                <div class="contact-stat">
+                    <a href="#" data-ng-click="toggleSave(item)">
+                        <div ng-show="!item.savedFlag">
+                            <i class="fa fa-heart-o"></i> Add to wish list
+                        </div>
+                        <div ng-show="item.savedFlag">
+                            <i class="fa fa-trash-o"></i> Remove from wish list
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="contact-stat">
+                    <a href="#" data-ng-click="buy(item)">
+                        <i class="fa fa-cart-arrow-down"></i> Buy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
