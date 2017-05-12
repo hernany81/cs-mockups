@@ -56,7 +56,8 @@ module.exports = function (grunt) {
                     optimization: 2
                 },
                 files: {
-                    "app/styles/style.css": "app/less/style.less"
+                    src: ['app/less/style.less','app/less/*.less'],
+                    dest: 'app/styles/style.css'
                 }
             }
         },

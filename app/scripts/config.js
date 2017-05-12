@@ -46,6 +46,15 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, $sceP
                 specialClass: 'blank'
             }
         })
+        .state('cs.preorder', {
+            url: "/pre-order-edit",
+            templateUrl: "views/cs/pre-order/pre-order-edit.html",
+            controller: 'csEditPreOrder',
+            data: {
+                pageTitle: 'Pre Order',
+                specialClass: 'blank'
+            }
+        })
 
         // Dashboard - Main page
         .state('dashboard', {
