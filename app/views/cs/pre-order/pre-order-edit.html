@@ -38,35 +38,39 @@
 
     <div class="panel-body" ng-if="data.created">
 
-        <uib-tabset active="activeForm">
-           <uib-tab ng-repeat="week in weeks" heading="Week starting on {{week}}">
-               <div class="form-group">        
-                  <div class="col-sm-10"> <!--TODO selecciono uno o el otro -->
-                      <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Boxes"> Boxes </label></div>
-                      <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Grid"> Grid </label></div>
-                  </div>
+        <uib-tabset active="activeTab">
+           <uib-tab ng-repeat="preorder in preorders">
+             <uib-tab-heading>
+               <div>Week starting on {{preorder.weekDate}}</div>
+               <div class="preorder-total">Order Total: <span>{{preorder.totalSellCharge | currency }}</span></div>
+             </uib-tab-heading>
+             <div class="form-group">
+                <div class="col-sm-10"> <!--TODO selecciono uno o el otro -->
+                    <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Boxes"> Boxes </label></div>
+                    <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Grid"> Grid </label></div>
+                </div>
 
-                  <!--Boxes view -->
-                  <div ng-if="data.showView === 'Boxes'">
-                    <div data-ng-repeat="row in data.results">
-                      <div class="row">
-                        <se-product-item data-item="res" data-on-toggle-save="toggleSave($item)" data-on-buy="buy($item)"
-                      data-layout="square" data-ng-repeat="res in row" data-visibility-settings="data.cart.visibilitySettings">
-                      </se-product-item>
-                      </div>
+                <!--Boxes view -->
+                <div ng-if="data.showView === 'Boxes'">
+                  <div data-ng-repeat="row in data.rows">
+                    <div class="row">
+                      <se-product-item data-item="res" data-on-toggle-save="toggleSave($item)" data-on-buy="buy($item)"
+                    data-layout="square" data-edition="'order'" data-on-update-item="updateItem($item)" data-ng-repeat="res in row" data-visibility-settings="data.cart.visibilitySettings">
+                    </se-product-item>
                     </div>
                   </div>
+                </div>
 
-                  <!--Grid view -->
-                  <div ng-if="data.showBoxes === 'Grid'">
+                <!--Grid view -->
+                <div ng-if="data.showBoxes === 'Grid'">
+                  GRID
+                  <div> <!--data-ng-repeat="row in data.results"-->
+                    <div class="row">
                     GRID
-                    <div> <!--data-ng-repeat="row in data.results"-->
-                      <div class="row">
-                      GRID
-                      </div>
                     </div>
                   </div>
-        </div>
+                </div>
+            </div>
        </uib-tab>
        </uib-tabset>
 

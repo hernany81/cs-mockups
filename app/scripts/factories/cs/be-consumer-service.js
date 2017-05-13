@@ -5,7 +5,7 @@ angular
 
         return {
           loadSelectableItems: function() {
-              return $http.get('selectableItems.json');
+              return $http.get('orderItems.json');
           }
         }
       }

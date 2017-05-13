@@ -54,26 +54,38 @@
             </div>
         </div>
         <div class="panel-footer contact-footer">
-            <div class="row">
-                <div class="col-md-6 border-right">
-                    <div class="contact-stat">
-                        <a href="#" data-ng-click="toggleSave(item)">
-                            <div ng-show="!item.savedFlag">
-                                <i class="fa fa-heart-o"></i> Add to wish list
-                            </div>
-                            <div ng-show="item.savedFlag">
-                                <i class="fa fa-trash-o"></i> Remove from wish list
-                            </div>
-                        </a>
+          <div ng-if="edition ==='cart'">
+              <div class="row">
+                  <div class="col-md-6 border-right">
+                      <div class="contact-stat">
+                          <a href="#" data-ng-click="toggleSave(item)">
+                              <div ng-show="!item.savedFlag">
+                                  <i class="fa fa-heart-o"></i> Add to wish list
+                              </div>
+                              <div ng-show="item.savedFlag">
+                                  <i class="fa fa-trash-o"></i> Remove from wish list
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="contact-stat">
+                          <a href="#" data-ng-click="buy(item)">
+                              <i class="fa fa-cart-arrow-down"></i> Buy
+                          </a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div ng-if="edition ==='order'">
+              <div class="row">
+                    <div class="col-md-6 border-right">
+                        <div class="product-order-total"><label>Quantity:</label></div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="contact-stat">
-                        <a href="#" data-ng-click="buy(item)">
-                            <i class="fa fa-cart-arrow-down"></i> Buy
-                        </a>
+                    <div class="col-md-6 border-right">
+                        <div class="product-order-total"><input type="text" data-ng-model="item.quantity" data-ng-change="updateItem(item)" placeholder="0" ng-min="0"></div>
                     </div>
-                </div>
+              </div>
             </div>
         </div>
     </div>
