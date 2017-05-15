@@ -29,7 +29,8 @@ angular
     .filter('enumLabel', enumLabel)
     .filter('deliveryTypeEnum', deliveryTypeEnum)
     .filter('splitCollection', splitCollection)
-    .filter('longState', longState);
+    .filter('longState', longState)
+    .filter('tagsUl', ['$sce', tagsUl]); 
 
 /**
  * pageTitle - Directive for set Page title - mata title
@@ -375,5 +376,28 @@ function longState(StatesService) {
         }
 
         return _.get(statesMap, [code, 'name'], '');
+    }
+}
+
+function tagsUl($sce) {
+    return function(val) {
+        if(_.isEmpty(val)) {
+            return '';
+        }
+
+        var str = '<ul>';
+        var printedTagIds = {};
+
+        _.forEach(val, function(item) {
+            if(printedTagIds[item.id]) {
+                // Do not print again
+            } else {
+                str += '<li>' + item.name + '</li>';
+                printedTagIds[item.id] = true;
+            }
+
+        });
+        str += '</ul>';
+        return $sce.trustAsHtml(str);
     }
 }

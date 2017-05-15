@@ -7,7 +7,7 @@
 
    <!--Boxes view -->
    <div ng-if="data.showView === 'Boxes'">
-     <div data-ng-repeat="row in data.results">
+     <div data-ng-repeat="row in data.rows">
        <div class="row">
          <se-product-item data-item="res" data-on-toggle-save="toggleSave($item)" data-on-buy="buy($item)"
        data-layout="square" data-edition="'order'" data-on-update-item="updateItem($item)" data-ng-repeat="res in row" data-visibility-settings="data.cart.visibilitySettings">
@@ -23,12 +23,12 @@
 
    <!--Grid view -->
    <div ng-if="data.showView === 'Grid'">
-     <div> <!--data-ng-repeat="row in data.results"-->
-       <div class="panel-body">
-        <!--   <app-grid grid-id="tab-grid" grid-config="data.results" entity-name="example" keep-state="true"
-                     show-export-btn="true" hide-create-btn="!data.showCreateBtn"/> -->
-       </div>
-       </div>
+     <div class="form-group">
+         <div class="col-md-12">
+           <app-grid grid-id="tab-grid" grid-config="data.gridConfig" entity-name="example" keep-state="true"
+                     show-export-btn="true" hide-create-btn="!data.showCreateBtn"/>
+          </div>
+      </div>
   </div>
 
 </div>

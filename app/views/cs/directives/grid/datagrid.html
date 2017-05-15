@@ -1,54 +1,56 @@
-<div ng-class="{'empty-grid': datagrid.pagingOptions.totalItems == 0}">
-    <div>
-        <div class="page-size-selection" ng-class="{'visible': datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSizes[0], 'create-btn': !hideCreateBtn, 'export-btn': showExportBtn, 'transcluded-content': hasInnerContent}">
-            <label data-ng-if="canInitGrid" data-ng-show="datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSizes[0]">
-                Show <select id="pageSize" size="1" class="form-control" data-ng-model="datagrid.pagingOptions.pageSize"
-                             data-ng-options="val for val in datagrid.pagingOptions.pageSizes"></select> entries
-            </label>
+<div>
+  <div ng-class="{'empty-grid': datagrid.pagingOptions.totalItems == 0}">
+      <div>
+          <div class="page-size-selection" ng-class="{'visible': datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSizes[0], 'create-btn': !hideCreateBtn, 'export-btn': showExportBtn, 'transcluded-content': hasInnerContent}">
+              <label data-ng-if="canInitGrid" data-ng-show="datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSizes[0]">
+                  Show <select id="pageSize" size="1" class="form-control" data-ng-model="datagrid.pagingOptions.pageSize"
+                               data-ng-options="val for val in datagrid.pagingOptions.pageSizes"></select> entries
+              </label>
 
-            <ng-transclude></ng-transclude>
+              <ng-transclude></ng-transclude>
 
-            <button class="btn btn-sm btn-primary" ng-click="createNewItem()" style="float: right"
-                    data-ng-if="canInitGrid && !hideCreateBtn">
-                Create new {{entityName || 'item'}}
-            </button>
+              <button class="btn btn-sm btn-primary" ng-click="createNewItem()" style="float: right"
+                      data-ng-if="canInitGrid && !hideCreateBtn">
+                  Create new {{entityName || 'item'}}
+              </button>
 
-            <button class="btn btn-sm btn-default" ng-click="export()" style="float: right; margin-right: 10px;"
-                    data-ng-if="canInitGrid && showExportBtn">
-                Export
-            </button>
-        </div>
+              <button class="btn btn-sm btn-default" ng-click="export()" style="float: right; margin-right: 10px;"
+                      data-ng-if="canInitGrid && showExportBtn">
+                  Export
+              </button>
+          </div>
 
-        <div data-ng-if="canInitGrid">
-            <div data-ng-show="datagrid.pagingOptions.totalItems == null || datagrid.pagingOptions.totalItems > 0" class="app-grid">
-                <div class="gridStyle table table-hover" data-ui-grid="gridOptions" data-ui-grid-pinning ui-grid-resize-columns
-                     ui-grid-move-columns ui-grid-selection ui-grid-save-state ui-grid-auto-resize>
-                </div>
-                <div class="grid-slider">
-                    <div class="grid-slider-content"></div>
-                </div>
+          <div data-ng-if="canInitGrid">
+              <div data-ng-show="datagrid.pagingOptions.totalItems == null || datagrid.pagingOptions.totalItems > 0" class="app-grid">
+                  <div class="gridStyle table table-hover" data-ui-grid="gridOptions" data-ui-grid-pinning ui-grid-resize-columns
+                       ui-grid-move-columns ui-grid-selection ui-grid-save-state ui-grid-auto-resize>
+                  </div>
+                  <div class="grid-slider">
+                      <div class="grid-slider-content"></div>
+                  </div>
 
-                <div style="overflow: auto; width: 100%">
-                    <div class="dataTables_info" data-ng-if="!hidePagingFooter">
-                        Showing {{datagrid.pagingOptions.firstItem}} to {{datagrid.pagingOptions.lastItem}} of {{datagrid.pagingOptions.totalItems}} entries
-                    </div>
-                    <div class="dataTables_paginate hidden-sm hidden-xs" data-ng-if="!hidePagingFooter && datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSize">
-                        <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
-                            max-size="maxSize || 10" items-per-page="datagrid.pagingOptions.pageSize" data-ng-if="maxSize == null || maxSize > 5"></ul>
-                        <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
-                            max-size="maxSize || 10" items-per-page="datagrid.pagingOptions.pageSize" data-ng-if="maxSize <= 5"
-                            previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul>
-                    </div>
-                    <div class="dataTables_paginate visible-xs visible-sm" data-ng-if="!hidePagingFooter && datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSize">
-                        <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
-                            max-size="maxSize || 5" items-per-page="datagrid.pagingOptions.pageSize"
-                            previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul>
-                    </div>
-                </div>
-            </div>
-            <div data-ng-show="datagrid.pagingOptions.totalItems == 0" class="empty-table">
-                {{emptyMessage | default:'No items found'}}
-            </div>
-        </div>
-    </div>
+                  <div style="overflow: auto; width: 100%">
+                      <div class="dataTables_info" data-ng-if="!hidePagingFooter">
+                          Showing {{datagrid.pagingOptions.firstItem}} to {{datagrid.pagingOptions.lastItem}} of {{datagrid.pagingOptions.totalItems}} entries
+                      </div>
+                      <div class="dataTables_paginate hidden-sm hidden-xs" data-ng-if="!hidePagingFooter && datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSize">
+                          <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
+                              max-size="maxSize || 10" items-per-page="datagrid.pagingOptions.pageSize" data-ng-if="maxSize == null || maxSize > 5"></ul>
+                          <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
+                              max-size="maxSize || 10" items-per-page="datagrid.pagingOptions.pageSize" data-ng-if="maxSize <= 5"
+                              previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul>
+                      </div>
+                      <div class="dataTables_paginate visible-xs visible-sm" data-ng-if="!hidePagingFooter && datagrid.pagingOptions.totalItems > datagrid.pagingOptions.pageSize">
+                          <ul uib-pagination boundary-links="true" total-items="datagrid.pagingOptions.totalItems" ng-model="datagrid.pagingOptions.currentPage"
+                              max-size="maxSize || 5" items-per-page="datagrid.pagingOptions.pageSize"
+                              previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul>
+                      </div>
+                  </div>
+              </div>
+              <div data-ng-show="datagrid.pagingOptions.totalItems == 0" class="empty-table">
+                  {{emptyMessage | default:'No items found'}}
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
