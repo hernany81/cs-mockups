@@ -1,0 +1,35 @@
+
+<div class="form-group">
+   <div class="col-sm-10"> <!--TODO selecciono uno o el otro -->
+       <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Boxes"> Boxes </label></div>
+       <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Grid"> Grid </label></div>
+   </div>
+
+   <!--Boxes view -->
+   <div ng-if="data.showView === 'Boxes'">
+     <div data-ng-repeat="row in data.results">
+       <div class="row">
+         <se-product-item data-item="res" data-on-toggle-save="toggleSave($item)" data-on-buy="buy($item)"
+       data-layout="square" data-edition="'order'" data-on-update-item="updateItem($item)" data-ng-repeat="res in row" data-visibility-settings="data.cart.visibilitySettings">
+       </se-product-item>
+       </div>
+     </div>
+   </div>
+
+   <!--Grid view -->
+   <div ng-if="data.showBoxes === 'Grid'">
+     GRID
+     <div> <!--data-ng-repeat="row in data.results"-->
+       <div class="row">
+       GRID
+       </div>
+     </div>
+   </div>
+
+   <!--Pagination footer -->
+   <div class="pagination-container" data-ng-show="data.dataLoaded && data.results.length > 0">
+       <ul uib-pagination total-items="data.pagination.totalItems" ng-model="data.pagination.currentPage" max-size="10"
+           items-per-page="data.pagination.pageSize" boundary-links="true" ng-change="search()"></ul>
+   </div>
+
+</div>

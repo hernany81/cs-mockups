@@ -47,7 +47,6 @@ angular
                 };
 
                 $scope.updateItem = function(item){
-                  console.log("updateItem in directve");
                   ($scope.onUpdateItem || _.noop)({$item: item});
                 };
             }

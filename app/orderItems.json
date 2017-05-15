@@ -1,0 +1,2459 @@
+[
+  {
+    "id": null,
+    "sku": {
+      "id": 9285,
+      "code": "F0211-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2553,
+        "name": "Apples, 20 oz",
+        "code": "F0211",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9254,
+      "code": "F0117-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1672,
+        "name": "Apples, Cortland",
+        "code": "F0117",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 8609,
+      "code": "F0010-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2457,
+        "name": "Apples, Cox Orange Pipen",
+        "code": "F0010",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9255,
+      "code": "F1229-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 294,
+        "name": "Apples, Empire",
+        "code": "F1229",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9443,
+      "code": "F0219-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2582,
+        "name": "Apples, Fortune",
+        "code": "F0219",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9257,
+      "code": "F1297-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 295,
+        "name": "Apples, Gala",
+        "code": "F1297",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9444,
+      "code": "F0220-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2583,
+        "name": "Apples, Hardy Winesap",
+        "code": "F0220",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9286,
+      "code": "F0212-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2554,
+        "name": "Apples, Ida Red",
+        "code": "F0212",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9295,
+      "code": "F1240-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1135,
+        "name": "Apples, Jonagold",
+        "code": "F1240",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9263,
+      "code": "F0020-59-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2543,
+        "name": "Apples, Liberty",
+        "code": "F0020",
+        "parent": {
+          "id": 1965,
+          "name": "Apples",
+          "code": null,
+          "ancestorNames": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 242,
+      "code": "C690-56-IL-MW68-TES",
+      "distance": 68.66,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 831,
+        "name": "Cheese, White Cheddar",
+        "code": "C690",
+        "parent": {
+          "id": 105,
+          "name": "Cheese",
+          "code": null,
+          "ancestorNames": [
+            "Cheese"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 18,
+        "name": "Prairie Pure Cheese",
+        "code": "MW68",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Belvidere",
+          "state": "IL",
+          "streetOne": "PO Box 805",
+          "streetTwo": null,
+          "zip": "61008"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 56,
+        "name": "5# loaf"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 32.5,
+    "sellPrice": 45.597,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 37.375,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 661,
+      "code": "1515-59-IN-MW005-TES",
+      "distance": 128.12,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 86,
+          "name": "Random size",
+          "shortName": "Random size"
+        },
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 281,
+        "name": "Chicken, Boneless Skinless Breasts, Frozen, ABF",
+        "code": "1515",
+        "parent": {
+          "id": 114,
+          "name": "Chicken",
+          "code": null,
+          "ancestorNames": [
+            "Meat",
+            "Chicken"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 31,
+        "name": "Miller Amish Poultry",
+        "code": "MW005",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "North Orland",
+          "state": "IN",
+          "streetOne": "9622 West 350",
+          "streetTwo": null,
+          "zip": "46776"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 116,
+    "sellPrice": 162.748,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 133.4,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1685,
+      "code": "M2011-59-IL-MW50-TES",
+      "distance": 30.84,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1004,
+        "name": "Chicken, Boneless Skinless Thighs, Frozen, ABF",
+        "code": "M2011",
+        "parent": {
+          "id": 114,
+          "name": "Chicken",
+          "code": null,
+          "ancestorNames": [
+            "Meat",
+            "Chicken"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 118,
+        "name": "Kingdom Farms",
+        "code": "MW50",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Prairie View",
+          "state": "IL",
+          "streetOne": "23087 N Prairie Lane",
+          "streetTwo": null,
+          "zip": "60069"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 59,
+        "name": "40# case"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 100,
+    "sellPrice": 140.3,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 115,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 670,
+      "code": "M245-13-IN-MW005-TES",
+      "distance": 128.12,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1007,
+        "name": "Chicken, Bones, Frozen 40# Case",
+        "code": "M245",
+        "parent": {
+          "id": 114,
+          "name": "Chicken",
+          "code": null,
+          "ancestorNames": [
+            "Meat",
+            "Chicken"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 31,
+        "name": "Miller Amish Poultry",
+        "code": "MW005",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "North Orland",
+          "state": "IN",
+          "streetOne": "9622 West 350",
+          "streetTwo": null,
+          "zip": "46776"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 13,
+        "name": "40#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 43.6,
+    "sellPrice": 61.171,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 50.14,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 703,
+      "code": "D213-154-IL-MW669-TES",
+      "distance": 145.59,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 136,
+          "name": "Order M for Sat.",
+          "shortName": "Order M for Sat."
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1015,
+        "name": "Cow's Milk",
+        "code": "D213",
+        "parent": {
+          "id": 106,
+          "name": "Milk",
+          "code": null,
+          "ancestorNames": [
+            "Dairy",
+            "Milk"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 190,
+        "name": "Old Heritage Creamery",
+        "code": "MW669",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "NOT_DEFINED",
+          "city": "Arcola",
+          "state": "IL",
+          "streetOne": "222 N CR 575 East",
+          "streetTwo": null,
+          "zip": "61910"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 154,
+        "name": "1/2 gallon"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 3.85,
+    "sellPrice": 5.584,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 4.577,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1657,
+      "code": "E0005-320-WI-MW47-TES",
+      "distance": 111.62,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        },
+        {
+          "id": 55,
+          "name": "Cage Free",
+          "shortName": "Cage Free"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1472,
+        "name": "Eggs, Cage Free, Large",
+        "code": "E0005",
+        "parent": {
+          "id": 143,
+          "name": "Eggs, Cage Free",
+          "code": null,
+          "ancestorNames": [
+            "Eggs",
+            "Eggs, Cage Free"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 113,
+        "name": "JRS Country Acres, Inc",
+        "code": "MW47",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Lake Mills",
+          "state": "WI",
+          "streetOne": "N7543 Rock Lake Road",
+          "streetTwo": null,
+          "zip": "53551"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 320,
+        "name": "15 dozen"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 23.5,
+    "sellPrice": 35.453,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 29.06,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1961,
+      "code": "V0091-25-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1581,
+        "name": "Fava Leaves",
+        "code": "V0091",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 25,
+        "name": "flat"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 25,
+    "sellPrice": 35.075,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 28.75,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 6699,
+      "code": "V0130-327-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1636,
+        "name": "Fennel",
+        "code": "V0130",
+        "parent": {
+          "id": 139,
+          "name": "Root Vegetables",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Root Vegetables"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 327,
+        "name": "10 count"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 7141,
+      "code": "V1627-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2281,
+        "name": "Fingerlings, Fresh Dug, Baby Blue",
+        "code": "V1627",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 8024,
+      "code": "V0466-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2421,
+        "name": "Fingerlings, Fresh Dug, French",
+        "code": "V0466",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9298,
+      "code": "V0503-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2561,
+        "name": "Fingerlings, Fresh Dug, Ozzete",
+        "code": "V0503",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 7142,
+      "code": "V1628-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2282,
+        "name": "Fingerlings, Fresh Dug, Red Thumbs",
+        "code": "V1628",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 7352,
+      "code": "V0409-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2312,
+        "name": "Fingerlings, Fresh Dug, Rose Finn Apple",
+        "code": "V0409",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 7353,
+      "code": "V0410-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2313,
+        "name": "Fingerlings, Fresh Dug, Russian Banana",
+        "code": "V0410",
+        "parent": {
+          "id": 133,
+          "name": "Potatoes/Tubers",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Potatoes/Tubers"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 30,
+    "sellPrice": 42.09,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 34.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 618,
+      "code": "G200-85-WI-MW016-TES",
+      "distance": 160.56,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 996,
+        "name": "Flour, All Purpose, Sifted, White, ORGANIC",
+        "code": "G200",
+        "parent": {
+          "id": 151,
+          "name": "Flours",
+          "code": null,
+          "ancestorNames": [
+            "Grains",
+            "Flours"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 56,
+        "name": "Lonesome Stone Milling",
+        "code": "MW016",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PRIMARY_BILL_TO",
+          "city": "Lone Rock",
+          "state": "WI",
+          "streetOne": "304 S Oak Street PO Box 337",
+          "streetTwo": null,
+          "zip": "53556"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 85,
+        "name": "25#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 17.5,
+    "sellPrice": 31.872,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 26.125,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 249,
+      "code": "S101-61-WI-MW86-TES",
+      "distance": 186.62,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 837,
+        "name": "Garlic, Black Bulk",
+        "code": "S101",
+        "parent": {
+          "id": 1989,
+          "name": "Onions, Garlic",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Onions, Garlic"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 156,
+        "name": "Wisconsin Fermentation Company",
+        "code": "MW86",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PRIMARY_BILL_TO",
+          "city": "Hillsboro",
+          "state": "WI",
+          "streetOne": "PO Box 387",
+          "streetTwo": null,
+          "zip": "54634"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 61,
+        "name": "1.5#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 17,
+    "sellPrice": 24.662,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 20.215,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9436,
+      "code": "V0132-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1639,
+        "name": "Ginger",
+        "code": "V0132",
+        "parent": {
+          "id": 139,
+          "name": "Root Vegetables",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Root Vegetables"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 200,
+    "sellPrice": 280.6,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 230,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1943,
+      "code": "S0084-85-WI-MW016-TES",
+      "distance": 160.56,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1575,
+        "name": "High Protein Whole Wheat Bread Flour",
+        "code": "S0084",
+        "parent": {
+          "id": 151,
+          "name": "Flours",
+          "code": null,
+          "ancestorNames": [
+            "Grains",
+            "Flours"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 56,
+        "name": "Lonesome Stone Milling",
+        "code": "MW016",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PRIMARY_BILL_TO",
+          "city": "Lone Rock",
+          "state": "WI",
+          "streetOne": "304 S Oak Street PO Box 337",
+          "streetTwo": null,
+          "zip": "53556"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 85,
+        "name": "25#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 17.5,
+    "sellPrice": 31.872,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 26.125,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1618,
+      "code": "V1169-133-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 578,
+        "name": "Kale, Green",
+        "code": "V1169",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 133,
+        "name": "12#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 48,
+    "sellPrice": 67.344,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 55.2,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1664,
+      "code": "V0213-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1431,
+        "name": "Kalettes",
+        "code": "V0213",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 60,
+    "sellPrice": 84.18,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 69,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 8127,
+      "code": "V1203-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 579,
+        "name": "Leeks",
+        "code": "V1203",
+        "parent": {
+          "id": 1989,
+          "name": "Onions, Garlic",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Onions, Garlic"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 20,
+    "sellPrice": 28.06,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 23,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9462,
+      "code": "V966-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 1030,
+        "name": "Lettuce, Green Leaf",
+        "code": "V966",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 50,
+    "sellPrice": 70.15,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 57.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 9463,
+      "code": "V0438-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 2349,
+        "name": "Lettuce, Red Leaf",
+        "code": "V0438",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 50,
+    "sellPrice": 70.15,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 57.5,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1639,
+      "code": "S108-25-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 844,
+        "name": "Micro, Cilantro",
+        "code": "S108",
+        "parent": {
+          "id": 140,
+          "name": "Herbs",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Herbs"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 25,
+        "name": "flat"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 20,
+    "sellPrice": 28.06,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 23,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1326,
+      "code": "D1321-154-IL-MW669-TES",
+      "distance": 145.59,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 136,
+          "name": "Order M for Sat.",
+          "shortName": "Order M for Sat."
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 591,
+        "name": "Milk, Goat",
+        "code": "D1321",
+        "parent": {
+          "id": 106,
+          "name": "Milk",
+          "code": null,
+          "ancestorNames": [
+            "Dairy",
+            "Milk"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 190,
+        "name": "Old Heritage Creamery",
+        "code": "MW669",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "NOT_DEFINED",
+          "city": "Arcola",
+          "state": "IL",
+          "streetOne": "222 N CR 575 East",
+          "streetTwo": null,
+          "zip": "61910"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 154,
+        "name": "1/2 gallon"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 4.4,
+    "sellPrice": 6.356,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 5.21,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  },
+  {
+    "id": null,
+    "sku": {
+      "id": 1620,
+      "code": "V1443-15-IL-MW63-TES",
+      "distance": 59.92,
+      "inventoryLevel": null,
+      "leadInterval": null,
+      "tags": [
+        {
+          "id": 72,
+          "name": "Order M for Th, W for M",
+          "shortName": "Order M for Th, W for M"
+        }
+      ],
+      "productAttributes": [],
+      "product": {
+        "id": 592,
+        "name": "Mizuna",
+        "code": "V1443",
+        "parent": {
+          "id": 136,
+          "name": "Leafy Greens",
+          "code": null,
+          "ancestorNames": [
+            "Vegetables",
+            "Leafy Greens"
+          ]
+        },
+        "photoUrl": "https://farmlogix-dev.s3.amazonaws.com/uploads/ProductPhoto/97/1337073142madhava-agave-nectar-light_1_thumb_250x250.jpg",
+        "description": "<p>\n  <em style=\"color: rgb(106,106,106);text-align: left;background-color: rgb(255,255,255);\">\n    <b>Agave nectar</b></em>\n  <span style=\"color: rgb(84,84,84);text-align: left;background-color: rgb(255,255,255);float: none;\">\n    <span class=\"Apple-converted-space\"> </span>is a sweetener\n    commercially produced from several species of agave, including Agave\n    tequilana (blue agave) and Agave salmiana.</span>\n  <br /></p>"
+      },
+      "farm": {
+        "id": 132,
+        "name": "Nichols Farm",
+        "code": "MW63",
+        "leadInterval": null,
+        "primaryAddress": {
+          "type": "PICKUP",
+          "city": "Marengo",
+          "state": "IL",
+          "streetOne": "2602 Hawthorn Rd",
+          "streetTwo": null,
+          "zip": "60152"
+        },
+        "documents": []
+      },
+      "productUnit": {
+        "id": 15,
+        "name": "10#"
+      },
+      "skuCodes": []
+    },
+    "quantity": 0,
+    "total": 0,
+    "tags": null,
+    "basePrice": 40,
+    "sellPrice": 56.12,
+    "leadInterval": null,
+    "availableDate": null,
+    "resellPrice": 46,
+    "resellTotal": 0,
+    "harvestDate": null,
+    "packingDate": null,
+    "shippingDate": null,
+    "deliveryType": null,
+    "distributor": null
+  }
+]
