@@ -22,7 +22,6 @@ angular
 
       createPreorderTabs();
 
-
       $scope.createPreorder = function() {
         $scope.data.created = true;
       };

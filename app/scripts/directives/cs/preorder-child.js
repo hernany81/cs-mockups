@@ -9,25 +9,25 @@ angular
             templateUrl: 'views/cs/directives/preorder/preorder-child.html',
             scope: {
                 preorder: '=',
-                parentPreorderId: '@',
-                totalSelectableItems: '@',
-                pageSize: '@'
-            },
-
-            link: function(scope, elem) {
-
+                parentPreorderId: '@'
             },
             controller: function($scope, $filter, beConsumerService) {
               $scope.data = {
                   showView: "Boxes",
-                  dataLoaded: true,
-                  //Not using ClientStatusService as each preorder needs her own pagination status and the the service does not offer other logice than storing a single status.
-                  pagination: {
-                      pageSize: 20,
-                      totalItems: 0,
-                      currentPage: 1
-                  },
-                  results: []
+              //    boxes: {
+                    dataLoaded: true,
+                    //Not using ClientStatusService as each preorder needs her own pagination status and the the service does not offer other logice than storing a single status.
+                    pagination: {
+                        pageSize: 20,
+                        totalItems: 0,
+                        currentPage: 1
+                    },
+                    results: [],
+              //    },
+              //    grid: {
+                    showCreateBtn: false
+              //      datagridConfig: []
+              //    }
               };
 
               $scope.search = function(pageNbr){
@@ -54,7 +54,7 @@ angular
                         });
                         if (i){
                           result.quantity = i.quantity;
-                        }    
+                        }
                     });
 
                     var rows = $filter('splitCollection')(resp, 4);

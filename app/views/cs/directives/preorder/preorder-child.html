@@ -1,6 +1,6 @@
 
 <div class="form-group">
-   <div class="col-sm-10"> <!--TODO selecciono uno o el otro -->
+   <div class="col-sm-10">
        <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Boxes"> Boxes </label></div>
        <div class="radio"><label> <input icheck type="radio" ng-model="data.showView" value="Grid"> Grid </label></div>
    </div>
@@ -14,22 +14,21 @@
        </se-product-item>
        </div>
      </div>
-   </div>
-
-   <!--Grid view -->
-   <div ng-if="data.showBoxes === 'Grid'">
-     GRID
-     <div> <!--data-ng-repeat="row in data.results"-->
-       <div class="row">
-       GRID
-       </div>
+     <!--Pagination footer -->
+     <div class="pagination-container" data-ng-show="data.dataLoaded && data.results.length > 0">
+         <ul uib-pagination total-items="data.pagination.totalItems" ng-model="data.pagination.currentPage" max-size="10"
+             items-per-page="data.pagination.pageSize" boundary-links="true" ng-change="search()"></ul>
      </div>
    </div>
 
-   <!--Pagination footer -->
-   <div class="pagination-container" data-ng-show="data.dataLoaded && data.results.length > 0">
-       <ul uib-pagination total-items="data.pagination.totalItems" ng-model="data.pagination.currentPage" max-size="10"
-           items-per-page="data.pagination.pageSize" boundary-links="true" ng-change="search()"></ul>
-   </div>
+   <!--Grid view -->
+   <div ng-if="data.showView === 'Grid'">
+     <div> <!--data-ng-repeat="row in data.results"-->
+       <div class="panel-body">
+        <!--   <app-grid grid-id="tab-grid" grid-config="data.results" entity-name="example" keep-state="true"
+                     show-export-btn="true" hide-create-btn="!data.showCreateBtn"/> -->
+       </div>
+       </div>
+  </div>
 
 </div>
